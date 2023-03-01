@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>ONG - Gatinhos de São Paulo</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gatos">Gatinhos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                    </ul>
+                </nav>
+    </header>
+    <div class="container">
+        <div id="carousel-gatos" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://blog-static.petlove.com.br/wp-content/uploads/2022/08/gato-preto-2-Petlove.jpg" />
+                    <div class="carousel-caption">
+                        <h3>Mel - Gatinha preta</h3>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://blog.cobasi.com.br/wp-content/uploads/2021/08/caracteristicas-do-gato-1-1.png" />
+                    <div class="carousel-caption">
+                        <h3>Lilo - Gatinho mesclado</h3>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://recursos.tudodebicho.com.br/i/guiaderacas/gato-siames/gato-siames-jovem.jpg" />
+                    <div class="carousel-caption">
+                        <h3>Mike -Gatinho Siamês</h3>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-gatos" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-gatos" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-gatos" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-gatos" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-gatos" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container" class="row" id="gatos">
+        <div class="col">
+            <h2>Gatinhos para adoção</h2>
+            <div class="container g-0">
+                <div class="row">
+                    <div class="col-md-4 post">
+                        <img src="https://blog-static.petlove.com.br/wp-content/uploads/2022/08/gato-preto-2-Petlove.jpg" />
+                        <h4 class="h5">Mel - Gatinha preta</h4>
+                        <time>27/01/2023</time>
+                        <a class="btn btn-primary btn-sm">Saiba mais</a>
+                    </div>
+                    <div class="col-md-4 post">
+                        <img src="https://blog.cobasi.com.br/wp-content/uploads/2021/08/caracteristicas-do-gato-1-1.png" />
+                        <h4 class="h5">Lilo - Gatinho mesclado</h4>
+                        <time>10/02/2023</time>
+                        <a class="btn btn-primary btn-sm">Saiba mais</a>
+                    </div>
+                    <div class="col-md-4 post">
+                        <img src="https://recursos.tudodebicho.com.br/i/guiaderacas/gato-siames/gato-siames-jovem.jpg" />
+                        <h4 class="h5">Mike -Gatinho Siamês</h4>
+                        <time>15/02/2023</time>
+                        <a class="btn btn-primary btn-sm">Saiba mais</a>
+                    </div>
+                    <div class="col-md-4 post">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXq2rXQL-eeQVLo98RrCcU_obwsgoXYKlLBQ&usqp=CAU" />
+                        <h4 class="h5">Lika -Gatinha Amarela</h4>
+                        <time>15/02/2023</time>
+                        <a class="btn btn-primary btn-sm">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="sobre">
+            <h2>Sobre a ONG</h2>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Como tudo começou
+                        </div>
+                        <img src="https://vejasp.abril.com.br/wp-content/uploads/2021/08/gatos-resgatados-abrigo-ong-confraria-dos-miados-latidos-saga-gatos-sabesp-ongs-destaque.jpg.jpg?quality=70&strip=info&w=1000&h=665&crop=1">
+                        <div class="card-body">
+                            <h4 class="card-tittle">História</h4>
+                            <h5 class="card-subtittle">Saiba como tudo começou</h5>
+                            <p class="card-text">
+                                Nossa ONG começou em 2020, em meio a pandemia, quando notamos que muitos gatos estavam abandonados, e com a maioria das pessoas em casa, eles passaram a serem mais esquecidos. Assim, começamos a recolher alguns gatos em nossa casa, e contar com ajuda de conhecidos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Missão
+                        </div>
+                        <img src="https://www.petz.com.br/blog/wp-content/uploads/2020/07/gato-abandonado.jpg">
+                        <div class="card-body">
+                            <h4 class="card-tittle">Nossa missão</h4>
+                            <h5 class="card-subtittle">Saiba o que nos move </h5>
+                            <p class="card-text">
+                                Nosso amor aos animais é o que nos mantém firmes nesta missão. E saber que podemos contar com a ajuda de pessoas que também acreditam que devemos amar aos animais e cuidar dos que mais precisam e estão esquecidos nas ruas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

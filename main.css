@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2879a4;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    position: sticky;
+}
+
+.container h3 {
+    color: black;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container #carousel-gatos {
+    padding-top: 16px;
+    padding-bottom: 18px;
+}
+
+.container h2 {
+    color: #2879a4;
+    padding-top: 56px;
+    padding-bottom: 24px;
+}
+
+.row img {
+    width: 100%;
+    padding-top: 24px;
+}
+
+.container .row img {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+
+#sobre .row {
+    display: block;
+    min-width: 200%;
+}
+#sobre .row .col-6 {
+    margin-bottom: 18px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+#gatos .col .container{
+        display: grid;
+        grid-template-columns: repeat(4, 24.2%);
+    }
+}
