@@ -12,6 +12,8 @@ header {
     text-align: center;
     font-size: 32px;
     position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .container h3 {
@@ -28,6 +30,7 @@ header {
 .container #carousel-gatos {
     padding-top: 16px;
     padding-bottom: 18px;
+    z-index: 0;
 }
 
 .container h2 {
@@ -56,10 +59,3 @@ header {
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-
-#gatos .col .container{
-        display: grid;
-        grid-template-columns: repeat(4, 24.2%);
-    }
-}
